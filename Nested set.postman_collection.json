@@ -1,0 +1,407 @@
+{
+	"id": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+	"name": "Nested set",
+	"description": "",
+	"order": [
+		"d1cd76bc-62c3-167d-27ec-3b7b84624df9",
+		"51d0cb3c-bea1-82b0-0cab-55d97f3584e4",
+		"4373f7e8-abf4-5b0a-79db-ce6d9d3116d7",
+		"90dd18b4-8fc5-5caf-31c3-9ddd4b86aa09",
+		"e8c69e29-5e90-63ea-3b3b-a949315a5613",
+		"1d74f553-e1b5-69be-523f-9a7c33704cdf",
+		"1ee7f408-f200-8660-b6d4-80351fec69eb",
+		"b92f1d40-e5d2-514e-2982-94f22cf38446"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1548220162972,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1d74f553-e1b5-69be-523f-9a7c33704cdf",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8082/node/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": [
+				{
+					"key": "name",
+					"value": "dsa",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "parent_id",
+					"value": "9",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8082/node/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548220330077,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1ee7f408-f200-8660-b6d4-80351fec69eb",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8080/nodes/direct/14",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8080/nodes/direct/14",
+			"description": "Only direct children",
+			"descriptionFormat": "html",
+			"time": 1548220418886,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4373f7e8-abf4-5b0a-79db-ce6d9d3116d7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/nodes",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": [
+				{
+					"key": "name",
+					"value": "dsa",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "parent_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tree",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "left_key",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8082/nodes",
+			"description": "All nodes",
+			"descriptionFormat": "html",
+			"time": 1548220274987,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "51d0cb3c-bea1-82b0-0cab-55d97f3584e4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/nodes/parents/14",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": [
+				{
+					"key": "name",
+					"value": "dsa",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "parent_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tree",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "left_key",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8082/nodes/parents/14",
+			"description": "Parents of node",
+			"descriptionFormat": "html",
+			"time": 1548220262919,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "90dd18b4-8fc5-5caf-31c3-9ddd4b86aa09",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/node",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": [
+				{
+					"key": "name",
+					"value": "dsa",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "parent_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tree",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "left_key",
+					"value": "null",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8080/node",
+			"description": "Add node",
+			"descriptionFormat": "html",
+			"time": 1548220287127,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b92f1d40-e5d2-514e-2982-94f22cf38446",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVlNzhjN2VmNzVjZjBkNGU5MDVhNWI2M2ZiNTYzMGZhMzgyZGYwNjc5ZTRhOTg0ZGYxZWZkODRjNWY0MGM3YjQ5ZTkxZDc4MzE1NWJhNTZlIn0.eyJhdWQiOiIzIiwianRpIjoiNWU3OGM3ZWY3NWNmMGQ0ZTkwNWE1YjYzZmI1NjMwZmEzODJkZjA2NzllNGE5ODRkZjFlZmQ4NGM1ZjQwYzdiNDllOTFkNzgzMTU1YmE1NmUiLCJpYXQiOjE1NDU3NTY3NDEsIm5iZiI6MTU0NTc1Njc0MSwiZXhwIjoxNTQ3MDUyNzQxLCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.Lib8I34AccO_65bnL7bME7BHiKxbRbTTNxy-Y3t3TXjPC9uloMSQsxqaO7CW3nJWahWoVe9_Z_16ZpNUYI6okxhRCCDM6a7elSR5qVP2AMx2kUg1Cl8NQYqZOFbs_mRHxFl00wyjt_WbLrXgXq2ZmqtFEhYi6ZXxAB-efLSuI6pfTFD2DOg80N1xzGZQLYqDZ8ZnEeOYkZTrQkJIbUAWFzUAI_pcJtR81mODd1WWD5FkaDgHz8mo-24ahETbaXWCbIQt0s4gW1tKu9AJEuxyH88ryrAlL2PvkdTBMGQ4m0nwFB31_sAJ8GzuFAVvhN2jS6iYVcTdy4kjyjAJqOAp2FamQ0HVkg1kCBwGzrUwBS8IrEpG6PaIz55_zJ_UrenorzFJ198ykEa8wG5qDWS0gMLfq2r0b4vJRAXOzqIYTeOm3iitGYpD5J1S_3L4azO2TNq1bRL_S8ptHt8Nw_v9vjgevbF6W_1G2bo3y9x-3wcywoItd0aGrm0_TD1pTvSbA7MT6q913Y1XkMUAlZlL1P_x3imLxHMikHbWuzLjWAbAw5jHf8L_Vskj3KJh6sxiOp2PKVfKegKZ4cyPD-Sz3zlK7LjjK1hIONuZgT4GOSIb1Zn9w2qL2ZvRcFpNRVX-ELHo5g0LJoBbe_5m9hCTyF63nqvFDn61CI2fzpCC84E\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVlNzhjN2VmNzVjZjBkNGU5MDVhNWI2M2ZiNTYzMGZhMzgyZGYwNjc5ZTRhOTg0ZGYxZWZkODRjNWY0MGM3YjQ5ZTkxZDc4MzE1NWJhNTZlIn0.eyJhdWQiOiIzIiwianRpIjoiNWU3OGM3ZWY3NWNmMGQ0ZTkwNWE1YjYzZmI1NjMwZmEzODJkZjA2NzllNGE5ODRkZjFlZmQ4NGM1ZjQwYzdiNDllOTFkNzgzMTU1YmE1NmUiLCJpYXQiOjE1NDU3NTY3NDEsIm5iZiI6MTU0NTc1Njc0MSwiZXhwIjoxNTQ3MDUyNzQxLCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.Lib8I34AccO_65bnL7bME7BHiKxbRbTTNxy-Y3t3TXjPC9uloMSQsxqaO7CW3nJWahWoVe9_Z_16ZpNUYI6okxhRCCDM6a7elSR5qVP2AMx2kUg1Cl8NQYqZOFbs_mRHxFl00wyjt_WbLrXgXq2ZmqtFEhYi6ZXxAB-efLSuI6pfTFD2DOg80N1xzGZQLYqDZ8ZnEeOYkZTrQkJIbUAWFzUAI_pcJtR81mODd1WWD5FkaDgHz8mo-24ahETbaXWCbIQt0s4gW1tKu9AJEuxyH88ryrAlL2PvkdTBMGQ4m0nwFB31_sAJ8GzuFAVvhN2jS6iYVcTdy4kjyjAJqOAp2FamQ0HVkg1kCBwGzrUwBS8IrEpG6PaIz55_zJ_UrenorzFJ198ykEa8wG5qDWS0gMLfq2r0b4vJRAXOzqIYTeOm3iitGYpD5J1S_3L4azO2TNq1bRL_S8ptHt8Nw_v9vjgevbF6W_1G2bo3y9x-3wcywoItd0aGrm0_TD1pTvSbA7MT6q913Y1XkMUAlZlL1P_x3imLxHMikHbWuzLjWAbAw5jHf8L_Vskj3KJh6sxiOp2PKVfKegKZ4cyPD-Sz3zlK7LjjK1hIONuZgT4GOSIb1Zn9w2qL2ZvRcFpNRVX-ELHo5g0LJoBbe_5m9hCTyF63nqvFDn61CI2fzpCC84E",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/nodes/children/14",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8080/nodes/children/14",
+			"description": "All children of node",
+			"descriptionFormat": "html",
+			"time": 1548220443460,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d1cd76bc-62c3-167d-27ec-3b7b84624df9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/node/rebuild",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": [
+				{
+					"key": "name",
+					"value": "dsa",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "parent_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tree",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "left_key",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8082/node/rebuild",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1548220215244,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e8c69e29-5e90-63ea-3b3b-a949315a5613",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/node/10",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "ddce22c6-d0da-bbc4-426e-ef2e13ea38a6",
+			"data": [
+				{
+					"key": "name",
+					"value": "dsa",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "parent_id",
+					"value": "9",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8080/node/10",
+			"description": "delete node",
+			"descriptionFormat": "html",
+			"time": 1548220295214,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
